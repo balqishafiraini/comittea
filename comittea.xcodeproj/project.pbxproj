@@ -14,6 +14,7 @@
 		FA2C01682848F86100F09D9E /* comittea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA2C01662848F86100F09D9E /* comittea.xcdatamodeld */; };
 		FA2C016A2848F86400F09D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2C01692848F86400F09D9E /* Assets.xcassets */; };
 		FA2C016D2848F86400F09D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */; };
+		FA48C96D2850420600451B81 /* BubbleChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48C96C2850420600451B81 /* BubbleChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA2C01692848F86400F09D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2C016C2848F86400F09D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2C016E2848F86400F09D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA48C96C2850420600451B81 /* BubbleChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA2C015F2848F86100F09D9E /* SceneDelegate.swift */,
 				FA2C01612848F86100F09D9E /* ViewController.swift */,
 				FA2C01632848F86100F09D9E /* Main.storyboard */,
+				FA48C96C2850420600451B81 /* BubbleChatCell.swift */,
 				FA2C01692848F86400F09D9E /* Assets.xcassets */,
 				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
 				FA2C016E2848F86400F09D9E /* Info.plist */,
@@ -144,6 +147,7 @@
 				FA2C01622848F86100F09D9E /* ViewController.swift in Sources */,
 				FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */,
 				FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */,
+				FA48C96D2850420600451B81 /* BubbleChatCell.swift in Sources */,
 				FA2C01682848F86100F09D9E /* comittea.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
