@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311A2F1D2859C4F700EC53A1 /* T10-35_Story_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */; };
+		311A2F1F2859C51400EC53A1 /* T10-35_Story_Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */; };
 		FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C015D2848F86100F09D9E /* AppDelegate.swift */; };
 		FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C015F2848F86100F09D9E /* SceneDelegate.swift */; };
 		FA2C01622848F86100F09D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C01612848F86100F09D9E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T10-35_Story_Intro.swift"; sourceTree = "<group>"; };
+		311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "T10-35_Story_Intro.storyboard"; sourceTree = "<group>"; };
 		FA2C015A2848F86100F09D9E /* comittea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comittea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C015D2848F86100F09D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2C015F2848F86100F09D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
 				FA2C016E2848F86400F09D9E /* Info.plist */,
 				FA2C01662848F86100F09D9E /* comittea.xcdatamodeld */,
+				311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */,
+				311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */,
 			);
 			path = comittea;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2C016D2848F86400F09D9E /* LaunchScreen.storyboard in Resources */,
+				311A2F1F2859C51400EC53A1 /* T10-35_Story_Intro.storyboard in Resources */,
 				FA2C016A2848F86400F09D9E /* Assets.xcassets in Resources */,
 				FA2C01652848F86100F09D9E /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */,
 				FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */,
 				FA2C01682848F86100F09D9E /* comittea.xcdatamodeld in Sources */,
+				311A2F1D2859C4F700EC53A1 /* T10-35_Story_Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
