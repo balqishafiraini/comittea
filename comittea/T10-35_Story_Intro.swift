@@ -8,6 +8,7 @@
 import UIKit
 
 class T10_35_Story_Intro: UIViewController {
+    let ChapThumbnail = UIImage(named: "Chap_Buying Tickets")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,15 +16,23 @@ class T10_35_Story_Intro: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension T10_35_Story_Intro: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        3
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = Bundle.main.loadNibNamed("ChapterCell", owner: self, options: nil)?.first as! ChapterCell
+        cell.Chap_Thumbnail.image = ChapThumbnail
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 120
+    }
+    
 
 }
