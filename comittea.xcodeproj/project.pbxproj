@@ -70,12 +70,12 @@
 			children = (
 				FA2C015D2848F86100F09D9E /* AppDelegate.swift */,
 				FA2C015F2848F86100F09D9E /* SceneDelegate.swift */,
-				FA2C01612848F86100F09D9E /* ViewController.swift */,
 				FA2C01632848F86100F09D9E /* Main.storyboard */,
 				FA2C01692848F86400F09D9E /* Assets.xcassets */,
 				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
 				FA2C016E2848F86400F09D9E /* Info.plist */,
 				FA2C01662848F86100F09D9E /* comittea.xcdatamodeld */,
+				FA2C01612848F86100F09D9E /* ViewController.swift */,
 				311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */,
 				311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */,
 				310530492859CA6D00F84D3C /* ChapterCell.swift */,
