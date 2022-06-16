@@ -79,6 +79,9 @@ He could go to the movies with his friends.</string>
                             <barButtonItem title="Back" id="2Mq-tU-AYE"/>
                         </leftBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ChapTableView" destination="d3I-cC-D0a" id="0GS-1P-qXz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

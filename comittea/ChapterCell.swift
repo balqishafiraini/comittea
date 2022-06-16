@@ -11,6 +11,7 @@ class ChapterCell: UITableViewCell {
 
     
     @IBOutlet weak var Chap_Thumbnail: UIImageView!
+    
         override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

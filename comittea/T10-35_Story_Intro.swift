@@ -8,11 +8,17 @@
 import UIKit
 
 class T10_35_Story_Intro: UIViewController {
-    let ChapThumbnail = UIImage(named: "Chap_Buying Tickets")
+    
+    let ChapThumbnail = [UIImage(named: "Chap_Planning Ahead"), UIImage(named: "Chap_Buying Tickets"), UIImage(named: "Chap_Seating Placement")]
 
+    @IBOutlet weak var ChapTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.ChapTableView.dataSource = self
+        self.ChapTableView.delegate = self
+        self.registerTableViewCells()
     }
     
 }
@@ -20,18 +26,33 @@ class T10_35_Story_Intro: UIViewController {
 extension T10_35_Story_Intro: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        3
+        ChapThumbnail.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = Bundle.main.loadNibNamed("ChapterCell", owner: self, options: nil)?.first as! ChapterCell
-        cell.Chap_Thumbnail.image = ChapThumbnail
-        return cell
+//        let cell = Bundle.main.loadNibNamed("ChapterCell", owner: self, options: nil)?.first as! ChapterCell
+//        cell.Chap_Thumbnail.image = ChapThumbnail
+//        return cell
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ChapterCellID") as? ChapterCell {
+            for thumbnail in ChapThumbnail {
+                cell.Chap_Thumbnail.image = thumbnail
+            }
+            return cell
+        }
+        
+        return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 130
     }
     
+    private func registerTableViewCells() {
+        let textFieldCell = UINib(nibName: "ChapterCell",
+                                  bundle: nil)
+        self.ChapTableView.register(textFieldCell,
+                                forCellReuseIdentifier: "ChapterCellID")
+    }
 
 }
