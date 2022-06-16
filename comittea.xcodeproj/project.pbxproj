@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98D78342285AD92600542D64 /* Cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Cell.md; sourceTree = "<group>"; };
+		98D78343285AD93C00542D64 /* Model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Model.md; sourceTree = "<group>"; };
 		FA2C015A2848F86100F09D9E /* comittea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comittea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C015D2848F86100F09D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2C015F2848F86100F09D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98D7833D285AD88100542D64 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				98D78341285AD8FD00542D64 /* Cell */,
+			);
+			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		98D7833E285AD8A000542D64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98D78343285AD93C00542D64 /* Model.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98D7833F285AD8B700542D64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C01632848F86100F09D9E /* Main.storyboard */,
+				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98D78340285AD8CF00542D64 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C01612848F86100F09D9E /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		98D78341285AD8FD00542D64 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				98D78342285AD92600542D64 /* Cell.md */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FA2C01512848F86100F09D9E = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +101,13 @@
 		FA2C015C2848F86100F09D9E /* comittea */ = {
 			isa = PBXGroup;
 			children = (
+				98D7833D285AD88100542D64 /* CustomComponent */,
+				98D7833E285AD8A000542D64 /* Model */,
+				98D78340285AD8CF00542D64 /* ViewController */,
+				98D7833F285AD8B700542D64 /* View */,
 				FA2C015D2848F86100F09D9E /* AppDelegate.swift */,
 				FA2C015F2848F86100F09D9E /* SceneDelegate.swift */,
-				FA2C01612848F86100F09D9E /* ViewController.swift */,
-				FA2C01632848F86100F09D9E /* Main.storyboard */,
 				FA2C01692848F86400F09D9E /* Assets.xcassets */,
-				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
 				FA2C016E2848F86400F09D9E /* Info.plist */,
 				FA2C01662848F86100F09D9E /* comittea.xcdatamodeld */,
 			);
