@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Story: Codable {
+struct Story {
     
     var title: String
     var intro: String
@@ -21,13 +21,4 @@ class Story: Codable {
         self.logo = logo
         self.chapters = chapters
     }
-    
-    enum CodingKeys: String, CodingKey {
-        case title
-        case intro
-        case logo
-        case chapters
-    }
-
-    
 }

@@ -6,14 +6,35 @@
 //
 
 import Foundation
+import UIKit
 
 class User: Codable {
     
     var name: String = ""
     var isNewUser: Bool = true
-    var stories: [Story] = [Story]()
+    var progress: [String:[String:State]] = [String:[String:State]]()
     let userDefaults: UserDefaults = UserDefaults.standard
     let USER_KEY = "user_key"
+    
+    enum State: String, Codable {
+        case locked
+        case unlocked
+        case complete
+    }
+    
+    init() {
+        StaticStoriesData.stories.forEach { story in // Initialized chapters progress dynamically
+            progress[story.title] = [String:State]()
+            for (index, chapter) in story.chapters.enumerated() {
+                if index == 0 { // Chapter 1 is always unlocked
+                    progress[story.title]![chapter.title] = .unlocked
+                }
+                else {
+                    progress[story.title]![chapter.title] = .locked
+                }
+            }
+        }
+    }
     
     func save() -> Bool {
         do {
@@ -40,7 +61,7 @@ class User: Codable {
                 let user = try decoder.decode(User.self, from: data)
                 self.name = user.name
                 self.isNewUser = false
-                self.stories = user.stories
+                self.progress = user.progress
                 save()
                 return true
             }
@@ -54,7 +75,7 @@ class User: Codable {
     enum CodingKeys: String, CodingKey {
         case name
         case isNewUser
-        case stories
+        case progress
     }
     
 }

@@ -10,6 +10,7 @@
 		985CB2DF285B8F8E0030C4DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2DE285B8F8E0030C4DC /* User.swift */; };
 		985CB2E3285B90820030C4DC /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2E2285B90820030C4DC /* Story.swift */; };
 		985CB2E6285B91480030C4DC /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2E5285B91480030C4DC /* Chapter.swift */; };
+		98C9B128285C389800966C56 /* StaticStoriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C9B127285C389800966C56 /* StaticStoriesData.swift */; };
 		98D78345285ADB6600542D64 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78344285ADB6600542D64 /* Message.swift */; };
 		98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78346285ADBAB00542D64 /* TextMessage.swift */; };
 		98D78349285ADBFB00542D64 /* ActivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78348285ADBFB00542D64 /* ActivityMessage.swift */; };
@@ -34,6 +35,7 @@
 		985CB2DE285B8F8E0030C4DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		985CB2E2285B90820030C4DC /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		985CB2E5285B91480030C4DC /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		98C9B127285C389800966C56 /* StaticStoriesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticStoriesData.swift; sourceTree = "<group>"; };
 		98D78342285AD92600542D64 /* Cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Cell.md; sourceTree = "<group>"; };
 		98D78343285AD93C00542D64 /* Model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Model.md; sourceTree = "<group>"; };
 		98D78344285ADB6600542D64 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				985CB2E1285B90750030C4DC /* Story */,
 				985CB2E0285B8F960030C4DC /* User */,
 				98D78350285ADDD600542D64 /* Message */,
+				98C9B127285C389800966C56 /* StaticStoriesData.swift */,
 				98D78343285AD93C00542D64 /* Model.md */,
 			);
 			path = Model;
@@ -284,6 +287,7 @@
 				985CB2DF285B8F8E0030C4DC /* User.swift in Sources */,
 				98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */,
 				98D78345285ADB6600542D64 /* Message.swift in Sources */,
+				98C9B128285C389800966C56 /* StaticStoriesData.swift in Sources */,
 				FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */,
 				98D78349285ADBFB00542D64 /* ActivityMessage.swift in Sources */,
 				98D7834B285ADCE100542D64 /* CompyTrueMessage.swift in Sources */,

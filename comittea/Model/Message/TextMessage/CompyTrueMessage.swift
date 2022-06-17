@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CompyTrueMessage: TextMessage, Codable {
+struct CompyTrueMessage: TextMessage {
     var text: String
     
     init (_ text: String) {

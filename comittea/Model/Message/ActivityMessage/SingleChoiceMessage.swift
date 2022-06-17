@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SingleChoiceMessage: ActivityMessage, Codable {
+struct SingleChoiceMessage: ActivityMessage {
     
     typealias Answer = String
     
