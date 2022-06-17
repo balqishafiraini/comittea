@@ -35,9 +35,8 @@ extension T10_35_Story_Intro: UITableViewDataSource, UITableViewDelegate {
 //        return cell
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ChapterCellID") as? ChapterCell {
-            for thumbnail in ChapThumbnail {
-                cell.Chap_Thumbnail.image = thumbnail
-            }
+    
+            cell.Chap_Thumbnail.image = ChapThumbnail[indexPath.row]
             return cell
         }
         
@@ -45,7 +44,11 @@ extension T10_35_Story_Intro: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 130
+        return 140
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     private func registerTableViewCells() {

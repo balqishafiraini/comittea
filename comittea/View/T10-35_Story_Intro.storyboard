@@ -3,7 +3,6 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -71,14 +70,7 @@ He could go to the movies with his friends.</string>
                             <constraint firstItem="d3I-cC-D0a" firstAttribute="top" secondItem="cvq-ih-Aof" secondAttribute="bottom" constant="30" id="sAx-XB-jVF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fPq-Uq-PSn">
-                        <leftBarButtonItems>
-                            <barButtonItem title="Back" id="dxE-ik-4Hy">
-                                <imageReference key="image" image="chevron.left" catalog="system" symbolScale="default"/>
-                            </barButtonItem>
-                            <barButtonItem title="Back" id="2Mq-tU-AYE"/>
-                        </leftBarButtonItems>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="fPq-Uq-PSn"/>
                     <connections>
                         <outlet property="ChapTableView" destination="d3I-cC-D0a" id="0GS-1P-qXz"/>
                     </connections>
@@ -108,7 +100,6 @@ He could go to the movies with his friends.</string>
     </scenes>
     <resources>
         <image name="Story_Thumbnail2" width="390" height="250"/>
-        <image name="chevron.left" catalog="system" width="96" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
