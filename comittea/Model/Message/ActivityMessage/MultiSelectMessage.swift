@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MultiSelectMessage: ActivityMessage {
+struct MultiSelectMessage: ActivityMessage, Codable {
     
     typealias Answer = [String]
     

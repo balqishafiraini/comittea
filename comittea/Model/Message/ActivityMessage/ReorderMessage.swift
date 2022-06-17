@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ReorderMessage: ActivityMessage {
+struct ReorderMessage: ActivityMessage, Codable {
     
     typealias Answer = [String]
     

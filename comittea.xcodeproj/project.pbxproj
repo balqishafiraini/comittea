@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		985CB2DF285B8F8E0030C4DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2DE285B8F8E0030C4DC /* User.swift */; };
+		985CB2E3285B90820030C4DC /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2E2285B90820030C4DC /* Story.swift */; };
+		985CB2E6285B91480030C4DC /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB2E5285B91480030C4DC /* Chapter.swift */; };
 		98D78345285ADB6600542D64 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78344285ADB6600542D64 /* Message.swift */; };
 		98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78346285ADBAB00542D64 /* TextMessage.swift */; };
 		98D78349285ADBFB00542D64 /* ActivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78348285ADBFB00542D64 /* ActivityMessage.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		985CB2DE285B8F8E0030C4DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		985CB2E2285B90820030C4DC /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		985CB2E5285B91480030C4DC /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		98D78342285AD92600542D64 /* Cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Cell.md; sourceTree = "<group>"; };
 		98D78343285AD93C00542D64 /* Model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Model.md; sourceTree = "<group>"; };
 		98D78344285ADB6600542D64 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -63,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985CB2E0285B8F960030C4DC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				985CB2DE285B8F8E0030C4DC /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		985CB2E1285B90750030C4DC /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				985CB2E2285B90820030C4DC /* Story.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		985CB2E4285B91400030C4DC /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				985CB2E5285B91480030C4DC /* Chapter.swift */,
+			);
+			path = Chapter;
+			sourceTree = "<group>";
+		};
 		98D7833D285AD88100542D64 /* CustomComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,9 @@
 		98D7833E285AD8A000542D64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				985CB2E4285B91400030C4DC /* Chapter */,
+				985CB2E1285B90750030C4DC /* Story */,
+				985CB2E0285B8F960030C4DC /* User */,
 				98D78350285ADDD600542D64 /* Message */,
 				98D78343285AD93C00542D64 /* Model.md */,
 			);
@@ -245,7 +278,10 @@
 				FA2C01622848F86100F09D9E /* ViewController.swift in Sources */,
 				FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */,
 				98D78355285ADE3300542D64 /* NarrationMessage.swift in Sources */,
+				985CB2E6285B91480030C4DC /* Chapter.swift in Sources */,
+				985CB2E3285B90820030C4DC /* Story.swift in Sources */,
 				98D7835D285AE5DC00542D64 /* MultiSelectMessage.swift in Sources */,
+				985CB2DF285B8F8E0030C4DC /* User.swift in Sources */,
 				98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */,
 				98D78345285ADB6600542D64 /* Message.swift in Sources */,
 				FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */,

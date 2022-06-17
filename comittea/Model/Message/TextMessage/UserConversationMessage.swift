@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserCoversationMessage: TextMessage {
+struct UserCoversationMessage: TextMessage, Codable {
     var text: String
     
     init (_ text: String) {

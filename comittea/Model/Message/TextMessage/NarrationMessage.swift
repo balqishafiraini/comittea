@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NarrationMessage: TextMessage {
+struct NarrationMessage: TextMessage, Codable {
     var text: String
     
     init (_ text: String) {
