@@ -11,6 +11,17 @@
 		3105304C2859CA6D00F84D3C /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3105304A2859CA6D00F84D3C /* ChapterCell.xib */; };
 		311A2F1D2859C4F700EC53A1 /* T10-35_Story_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */; };
 		311A2F1F2859C51400EC53A1 /* T10-35_Story_Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */; };
+		98D78345285ADB6600542D64 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78344285ADB6600542D64 /* Message.swift */; };
+		98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78346285ADBAB00542D64 /* TextMessage.swift */; };
+		98D78349285ADBFB00542D64 /* ActivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78348285ADBFB00542D64 /* ActivityMessage.swift */; };
+		98D7834B285ADCE100542D64 /* CompyTrueMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7834A285ADCE100542D64 /* CompyTrueMessage.swift */; };
+		98D7834F285ADD5A00542D64 /* CompyFalseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7834E285ADD5A00542D64 /* CompyFalseMessage.swift */; };
+		98D78355285ADE3300542D64 /* NarrationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78354285ADE3300542D64 /* NarrationMessage.swift */; };
+		98D78357285ADE6F00542D64 /* CompyConversationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78356285ADE6F00542D64 /* CompyConversationMessage.swift */; };
+		98D78359285ADE8700542D64 /* UserConversationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D78358285ADE8700542D64 /* UserConversationMessage.swift */; };
+		98D7835B285ADEB600542D64 /* SingleChoiceMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7835A285ADEB600542D64 /* SingleChoiceMessage.swift */; };
+		98D7835D285AE5DC00542D64 /* MultiSelectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7835C285AE5DC00542D64 /* MultiSelectMessage.swift */; };
+		98D7835F285AE6D500542D64 /* ReorderMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7835E285AE6D500542D64 /* ReorderMessage.swift */; };
 		FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C015D2848F86100F09D9E /* AppDelegate.swift */; };
 		FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C015F2848F86100F09D9E /* SceneDelegate.swift */; };
 		FA2C01622848F86100F09D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C01612848F86100F09D9E /* ViewController.swift */; };
@@ -25,6 +36,19 @@
 		3105304A2859CA6D00F84D3C /* ChapterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChapterCell.xib; sourceTree = "<group>"; };
 		311A2F1C2859C4F700EC53A1 /* T10-35_Story_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T10-35_Story_Intro.swift"; sourceTree = "<group>"; };
 		311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "T10-35_Story_Intro.storyboard"; sourceTree = "<group>"; };
+		98D78342285AD92600542D64 /* Cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Cell.md; sourceTree = "<group>"; };
+		98D78343285AD93C00542D64 /* Model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Model.md; sourceTree = "<group>"; };
+		98D78344285ADB6600542D64 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		98D78346285ADBAB00542D64 /* TextMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessage.swift; sourceTree = "<group>"; };
+		98D78348285ADBFB00542D64 /* ActivityMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMessage.swift; sourceTree = "<group>"; };
+		98D7834A285ADCE100542D64 /* CompyTrueMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompyTrueMessage.swift; sourceTree = "<group>"; };
+		98D7834E285ADD5A00542D64 /* CompyFalseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompyFalseMessage.swift; sourceTree = "<group>"; };
+		98D78354285ADE3300542D64 /* NarrationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarrationMessage.swift; sourceTree = "<group>"; };
+		98D78356285ADE6F00542D64 /* CompyConversationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompyConversationMessage.swift; sourceTree = "<group>"; };
+		98D78358285ADE8700542D64 /* UserConversationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConversationMessage.swift; sourceTree = "<group>"; };
+		98D7835A285ADEB600542D64 /* SingleChoiceMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChoiceMessage.swift; sourceTree = "<group>"; };
+		98D7835C285AE5DC00542D64 /* MultiSelectMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectMessage.swift; sourceTree = "<group>"; };
+		98D7835E285AE6D500542D64 /* ReorderMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderMessage.swift; sourceTree = "<group>"; };
 		FA2C015A2848F86100F09D9E /* comittea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comittea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C015D2848F86100F09D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2C015F2848F86100F09D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				316E422D285C180700323D47 /* ChapterCell */,
+		98D7833D285AD88100542D64 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				98D78341285AD8FD00542D64 /* Cell */,
 			);
 			path = CustomComponent;
 			sourceTree = "<group>";
@@ -70,8 +98,17 @@
 				311A2F1E2859C51400EC53A1 /* T10-35_Story_Intro.storyboard */,
 				FA2C016B2848F86400F09D9E /* LaunchScreen.storyboard */,
 				FA2C01632848F86100F09D9E /* Main.storyboard */,
+      );
+      path = View;
+      sourceTree = "<group>";
+    };
+		98D7833E285AD8A000542D64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98D78350285ADDD600542D64 /* Message */,
+				98D78343285AD93C00542D64 /* Model.md */,
 			);
-			path = View;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		316E422D285C180700323D47 /* ChapterCell */ = {
@@ -81,6 +118,56 @@
 				3105304A2859CA6D00F84D3C /* ChapterCell.xib */,
 			);
 			path = ChapterCell;
+      sourceTree = "<group>";
+    };
+		98D78340285AD8CF00542D64 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C01612848F86100F09D9E /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		98D78341285AD8FD00542D64 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				98D78342285AD92600542D64 /* Cell.md */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		98D78350285ADDD600542D64 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				98D78344285ADB6600542D64 /* Message.swift */,
+				98D78351285ADDE700542D64 /* TextMessage */,
+				98D78353285ADE1300542D64 /* ActivityMessage */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		98D78351285ADDE700542D64 /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				98D78346285ADBAB00542D64 /* TextMessage.swift */,
+				98D78354285ADE3300542D64 /* NarrationMessage.swift */,
+				98D78356285ADE6F00542D64 /* CompyConversationMessage.swift */,
+				98D78358285ADE8700542D64 /* UserConversationMessage.swift */,
+				98D7834A285ADCE100542D64 /* CompyTrueMessage.swift */,
+				98D7834E285ADD5A00542D64 /* CompyFalseMessage.swift */,
+			);
+			path = TextMessage;
+			sourceTree = "<group>";
+		};
+		98D78353285ADE1300542D64 /* ActivityMessage */ = {
+			isa = PBXGroup;
+			children = (
+				98D78348285ADBFB00542D64 /* ActivityMessage.swift */,
+				98D7835A285ADEB600542D64 /* SingleChoiceMessage.swift */,
+				98D7835C285AE5DC00542D64 /* MultiSelectMessage.swift */,
+				98D7835E285AE6D500542D64 /* ReorderMessage.swift */,
+			);
+			path = ActivityMessage;
 			sourceTree = "<group>";
 		};
 		FA2C01512848F86100F09D9E = {
@@ -105,6 +192,7 @@
 				316E422C285C17FA00323D47 /* View */,
 				316E422B285C17EA00323D47 /* ViewController */,
 				316E422A285C178B00323D47 /* CustomComponent */,
+				98D7833E285AD8A000542D64 /* Model */,
 				FA2C015D2848F86100F09D9E /* AppDelegate.swift */,
 				FA2C015F2848F86100F09D9E /* SceneDelegate.swift */,
 				FA2C01692848F86400F09D9E /* Assets.xcassets */,
@@ -189,10 +277,21 @@
 			files = (
 				FA2C01622848F86100F09D9E /* ViewController.swift in Sources */,
 				FA2C015E2848F86100F09D9E /* AppDelegate.swift in Sources */,
+				98D78355285ADE3300542D64 /* NarrationMessage.swift in Sources */,
+				98D7835D285AE5DC00542D64 /* MultiSelectMessage.swift in Sources */,
+				98D78347285ADBAB00542D64 /* TextMessage.swift in Sources */,
+				98D78345285ADB6600542D64 /* Message.swift in Sources */,
 				FA2C01602848F86100F09D9E /* SceneDelegate.swift in Sources */,
 				3105304B2859CA6D00F84D3C /* ChapterCell.swift in Sources */,
-				FA2C01682848F86100F09D9E /* comittea.xcdatamodeld in Sources */,
 				311A2F1D2859C4F700EC53A1 /* T10-35_Story_Intro.swift in Sources */,
+				98D78349285ADBFB00542D64 /* ActivityMessage.swift in Sources */,
+				98D7834B285ADCE100542D64 /* CompyTrueMessage.swift in Sources */,
+				FA2C01682848F86100F09D9E /* comittea.xcdatamodeld in Sources */,
+				98D7835B285ADEB600542D64 /* SingleChoiceMessage.swift in Sources */,
+				98D7834F285ADD5A00542D64 /* CompyFalseMessage.swift in Sources */,
+				98D78357285ADE6F00542D64 /* CompyConversationMessage.swift in Sources */,
+				98D78359285ADE8700542D64 /* UserConversationMessage.swift in Sources */,
+				98D7835F285AE6D500542D64 /* ReorderMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
