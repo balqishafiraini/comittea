@@ -16,10 +16,15 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>T10-36_Story Intermezzo</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Italic-VariableFont_wght.ttf</string>
+		<string>Montserrat-VariableFont_wght.ttf</string>
+	</array>
 </dict>
 </plist>
