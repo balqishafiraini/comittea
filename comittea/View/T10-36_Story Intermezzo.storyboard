@@ -63,11 +63,6 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="1000"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="Btn_NextChapter:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VNk-tI-59r"/>
                                 </connections>
